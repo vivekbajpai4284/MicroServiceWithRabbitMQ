@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30204.135
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroServiceWithRabbitMQ", "MicroServiceWithRabbitMQ\MicroServiceWithRabbitMQ.csproj", "{DAD80FA3-00F3-4B4A-877D-4432317D540B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroServiceWithRabbitMQ", "MicroServiceWithRabbitMQ\MicroServiceWithRabbitMQ.csproj", "{DAD80FA3-00F3-4B4A-877D-4432317D540B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{9251EE06-DA00-4909-8A47-BD8B4A9D2C59}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra.Bus", "Infra.Bus", "{E4B0A56F-2803-4561-80EA-F86B667FA429}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroRabbit.Domain.Core", "MicroRabbit.Domain.Core\MicroRabbit.Domain.Core.csproj", "{9CF2B0BC-A9DF-4EB8-9710-8FB476721C3F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +21,16 @@ Global
 		{DAD80FA3-00F3-4B4A-877D-4432317D540B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DAD80FA3-00F3-4B4A-877D-4432317D540B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DAD80FA3-00F3-4B4A-877D-4432317D540B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CF2B0BC-A9DF-4EB8-9710-8FB476721C3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CF2B0BC-A9DF-4EB8-9710-8FB476721C3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CF2B0BC-A9DF-4EB8-9710-8FB476721C3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CF2B0BC-A9DF-4EB8-9710-8FB476721C3F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9CF2B0BC-A9DF-4EB8-9710-8FB476721C3F} = {9251EE06-DA00-4909-8A47-BD8B4A9D2C59}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {54EE4E00-9149-48F6-B6F7-E3E0A00AF0EF}

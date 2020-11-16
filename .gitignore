@@ -7,3 +7,6 @@
 /MicroServiceWithRabbitMQ/MicroServiceWithRabbitMQ/bin/Debug/netcoreapp2.2
 /MicroServiceWithRabbitMQ/MicroRabbit.Domain.Core/obj
 /MicroServiceWithRabbitMQ/.vs/MicroServiceWithRabbitMQ/DesignTimeBuild/.dtbcache.v2
+/MicroRabbit.Domain.Core/bin/Debug/netcoreapp3.1
+/MicroRabbit.Domain.Core/obj
+/.vs/MicroServiceWithRabbitMQ

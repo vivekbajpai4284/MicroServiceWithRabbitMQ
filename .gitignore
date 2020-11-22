@@ -10,3 +10,5 @@
 /MicroRabbit.Domain.Core/bin/Debug/netcoreapp3.1
 /MicroRabbit.Domain.Core/obj
 /.vs/MicroServiceWithRabbitMQ
+/MicroRabbit.Infra.Bus/obj
+/MicroRabbit.Infra.Bus/bin/Debug/netcoreapp3.1
